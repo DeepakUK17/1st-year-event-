@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - AI & Data Science</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">AI & DS Department</div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">About</a>
+                <a href="faculty.html" class="nav-link">Faculty</a>
+                <a href="introduction.html" class="nav-link">Introduction</a>
+                <a href="achievements.html" class="nav-link">Achievements</a>
+                <a href="quiz.html" class="nav-link active">Quiz</a>
+                <a href="hod-address.html" class="nav-link">HOD Address</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Quiz Section -->
+    <section class="quiz-section">
+        <div class="container">
+            <div class="quiz-header animate-fadeInUp">
+                <h1 class="quiz-title">Interactive Quiz</h1>
+                <p class="quiz-subtitle">
+                    Test your knowledge in AI, Machine Learning, and Data Science with our interactive quiz platform.
+                </p>
+            </div>
+
+            <div class="quiz-content">
+                <div class="quiz-grid">
+                    <!-- Instructions -->
+                    <div class="quiz-instructions animate-fadeInUp" style="animation-delay: 0.2s;">
+                        <h2 class="instructions-title">How to Access the Quiz</h2>
+                        
+                        <div class="instruction-steps">
+                            <div class="step">
+                                <div class="step-number cyan-gradient">1</div>
+                                <p>Scan the QR code with your smartphone</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number purple-gradient">2</div>
+                                <p>Access the interactive quiz platform</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number green-gradient">3</div>
+                                <p>Test your AI & Data Science knowledge</p>
+                            </div>
+                        </div>
+
+                        <div class="quiz-features">
+                            <div class="feature-item cyan-theme">
+                                <div class="feature-icon">🧠</div>
+                                <span>AI Concepts</span>
+                            </div>
+                            <div class="feature-item purple-theme">
+                                <div class="feature-icon">⚡</div>
+                                <span>Quick Results</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- QR Code Interface -->
+                    <div class="qr-interface animate-fadeInUp" style="animation-delay: 0.4s;">
+                        <div class="tech-device">
+                            <div class="device-header">
+                                <div class="device-controls">
+                                    <span class="control red"></span>
+                                    <span class="control yellow"></span>
+                                    <span class="control green"></span>
+                                </div>
+                                <div class="device-title">QUIZ_PORTAL.exe</div>
+                            </div>
+                            
+                            <div class="qr-container">
+                                <div class="qr-code">
+                                    <div class="qr-pattern" id="qrPattern"></div>
+                                    <div class="qr-logo">
+                                        <div class="qr-icon">🔍</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="device-footer">
+                                <p class="scan-text">SCAN TO ACCESS QUIZ</p>
+                                <div class="mobile-info">
+                                    <span class="mobile-icon">📱</span>
+                                    <span>Mobile Optimized</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rotating-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Info -->
+                <div class="quiz-info animate-fadeInUp" style="animation-delay: 0.8s;">
+                    <div class="info-card">
+                        <h3 class="info-title">Quiz Features</h3>
+                        <p class="info-description">
+                            Multiple choice questions • Real-time scoring • Instant feedback • Difficulty levels • Progress tracking • Leaderboard
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
